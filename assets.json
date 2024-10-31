@@ -1,0 +1,109 @@
+{
+    "videos": {
+        "video1": {
+            "name": "video crossing background",
+            "source": "assets/IMG_5797 2.mov"
+        }
+    },
+    "photos": {
+        "photo1": {
+            "name": "crowd 1",
+            "source": "assets/IMG_9097.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.06.26.png"
+        },
+        "photo2": {
+            "name": "crowd 2",
+            "source": "assets/IMG_9099.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.06.26.png"
+        },
+        "photo3": {
+            "name": "crowd 3",
+            "source": "assets/IMG_9100.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.07.43.png"
+        },
+        "photo4": {
+            "name": "crowd 4",
+            "source": "assets/IMG_9102.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.07.43.png"
+        },
+        "photo5": {
+            "name": "crowd 5",
+            "source": "assets/IMG_9125.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.08.28.png"
+        },
+        "photo6": {
+            "name": "crowd 6",
+            "source": "assets/IMG_9126.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.09.13.png"
+        },
+        "photo7": {
+            "name": "crowd 7",
+            "source": "assets/IMG_9127.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.09.58.png"
+        },
+        "photo8": {
+            "name": "crowd 8",
+            "source": "assets/IMG_9128.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.09.58.png"
+        },
+        "photo9": {
+            "name": "crowd 9",
+            "source": "assets/IMG_9129.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.09.58.png"
+        },
+        "photo10": {
+            "name": "crowd 10",
+            "source": "assets/IMG_9136.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.10.52.png"
+        },
+        "photo11": {
+            "name": "crowd 11",
+            "source": "assets/IMG_9145.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.11.38.png"
+        },
+        "photo12": {
+            "name": "crowd 12",
+            "source": "assets/IMG_9148.JPG",
+            "map":"assets/Screenshot 2024-10-31 at 03.12.04.png"
+        }
+    },
+    "sequences": {
+        "sequence1": {
+            "name": "sequence 1",
+            "source": "assets/IMG_9105.JPG",
+            "map":"https://www.google.com/maps/place/106+Crosby+St,+New+York,+NY+10012/@40.722981,-73.9978704,19.41z/data=!4m14!1m7!3m6!1s0x89c25934f20fde9b:0x171b16e472eeb99c!2sBlank+Street+Coffee!8m2!3d40.7225679!4d-73.9971817!16s%2Fg%2F11n8cblrv0!3m5!1s0x89c2598f104b512b:0x9790b413f2586e73!8m2!3d40.7230162!4d-73.9975135!16s%2Fg%2F11q2n9rqw5?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "sequence2": {
+            "name": "sequence 2",
+            "source": "assets/IMG_9106.JPG"
+        },
+        "sequence3": {
+            "name": "sequence 3",
+            "source": "assets/IMG_9114.JPG"
+        },
+        "sequence4": {
+            "name": "sequence 4",
+            "source": "assets/IMG_9112.JPG"
+        },
+        "sequence5": {
+            "name": "sequence 5",
+            "source": "assets/IMG_9109.JPG"
+        },
+        "sequence6": {
+            "name": "sequence 6",
+            "source": "assets/IMG_9107.JPG"
+        },
+        "sequence7": {
+            "name": "sequence 7",
+            "source": "assets/IMG_9115.JPG"
+        },
+        "sequence8": {
+            "name": "sequence 8",
+            "source": "assets/IMG_9117.JPG"
+        },
+        "sequence9": {
+            "name": "sequence 9",
+            "source": "assets/IMG_9118.JPG"
+        }
+    }
+}

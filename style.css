@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2,
+h3,
+p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h2{
+    font-weight: 300;
+}
+
+
+.tagline{
+    font-size: 0.9rem;
+}
+
+.headerRight h3{
+    font-weight: 210;
+}
+
+.historyDir:hover,
+.photoDir:hover,
+.obsDir:hover{
+    color:rgb(255, 247, 191);
+}
+
+#pageContainer{
+    display: flex;
+    flex-direction: column;
+    height:auto
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    background-color: rgb(61, 10, 2);
+    width:100vw;
+    color:white;
+}
+
+.headerLeft,
+.headerRight{
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.titleContainer{
+    height:100vh;
+    width:100vw;
+}
+#videoBG{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    
+}
+.colorOverlay{
+    position: absolute;
+    display:block;
+    width: 100%;
+    height: 104%;
+    background-color: rgb(21, 1, 1);
+    opacity: 0.5;
+}
+
+#title {
+    display:grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14vh;
+    z-index: 100;
+    height: 60vh;
+    width: 60vw;
+    position: relative;
+    line-height: 50%;
+}
+
+
+.firstH1{
+    text-align: start;
+}
+.secondH1{
+    text-align: end;
+}
+
+#title h1{
+    font-size: 9rem;
+    color: rgb(255, 247, 191);
+}
+
+.historyContainer,
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:auto;
+    padding:5vw;
+    width:100vw;
+    background-color: rgb(61, 10, 2);
+    box-sizing: border-box; 
+    padding-left: 7vw;
+    padding-right: 7vw;  
+}
+
+.historyContainer h1,
+.dataContainer h1{
+    color:rgb(255, 247, 191);
+    font-size: 3rem;
+}
+
+.historyTitle, .historyContent {
+    opacity: 0; /* Start hidden */
+    transform: translateY(200px); /* Start farther down */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for when they come into view */
+}
+
+.historyContent {
+    transform: translateY(250px); /* Start even farther down for a staggered effect */
+}
+
+
+
+.historyContainer p,
+.dataContainer p{
+    color:white;
+    line-height: 190%;
+
+}
+
+.photoContainer {
+    height: auto;
+    padding: 3vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the gallery within the container */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-auto-rows: auto; /* Allows flexible row heights */
+    gap: 2vw; /* Moderate gap for spacing */
+    width: 100%; /* Match the container width */
+}
+
+.sequence {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2vw; /* Sets both horizontal and vertical gaps to 2vw */
+    max-width: 90vw; /* Adjusts width to keep it centered within the container */
+    margin: 0 auto; /* Centers the sequence grid */
+    padding-top: 5vh;
+}
+
+
+.gallery img {
+    width: 100%; /* Make each image take full width of the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures images fit neatly within grid cells */
+    border-radius: 4px; /* Optional: add rounded corners */
+    filter:grayscale(0.8)  
+}
+
+.sequence img {
+    aspect-ratio: 1 / 1; /* Ensures images are square */
+    width: 100%; /* Full width of the grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Fits image within square without distortion */
+    border-radius: 4px; /* Optional: rounded corners */
+    filter: grayscale(); /* Optional: applies grayscale effect */
+}
+
+.sequence img{
+    aspect-ratio: 1 / 1; /* Makes the image a square */
+    height:30vh;
+    width:auto
+}
+
+.gallery img:hover,
+.sequence img:hover{
+    filter:none;
+}
+
+.mapContainer{
+    height:auto;
+    padding:3vw;
+    background-color: aqua;
+}
+
+
+.fullScreenContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    background-color: rgb(61, 10, 2);
+    position: relative; /* Ensures absolutely positioned elements are contained within this */
+}
+
+.map {
+    height: 60vh;
+    width: 60vw;
+    margin-bottom: 20px; /* Space between .map and .mapBtn */
+    
+}
+
+.overlayMap {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: rgb(61, 10, 2);
+    height: 60vh;
+    width: 60vw;
+    opacity: 0;
+    transition: opacity 0.3s;
+    padding-top: 10vh;
+}
+
+.overlayMap:hover {
+    opacity: 0.8;
+}
+
+.mapBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+/* Optional: styling for hover effect */
+
+.mapBtn{
+    color:rgb(255, 247, 191);
+}
+.mapBtn:hover {
+    color: white;
+}
+
+.mapBtn h2 {
+    margin: 0;
+}
